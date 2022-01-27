@@ -1,0 +1,43 @@
+
+body{
+    background-image: linear-gradient(to left, rgba(202, 135, 11, 0.562), rgb(214, 145, 16), orange);
+}
+
+.embelezando_div{
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    padding: 60px;
+
+    background-color: #1d12047c;
+    border-radius: 10px;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+}
+
+input{
+    padding: 14px;
+    outline: none;
+    border: 2px solid rgba(192, 112, 37, 0.589);
+    font-size: 15px;
+    border-radius: 10px;
+    left: 40px;
+
+}
+
+button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(233, 140, 19);
+    border-radius: 10px;
+    width: 100%;
+    
+}
+ 
+button:hover{
+    background-color: rgba(248, 162, 92, 0.5);
+}

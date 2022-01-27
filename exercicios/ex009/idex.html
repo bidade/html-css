@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <style type="text/css">
+        body{
+            background-color: rgb(255, 255, 255);
+        }
+
+        h1{
+            text-align: center;
+            font-size: larger;
+            font-size: 40pt;
+            color: rgb(45, 114, 175);
+            font-style: initial;
+        }
+        h2{
+            color:rgb(53, 115, 170);
+        }
+        h3{
+            color: rgb(56, 121, 179);
+        }
+        ol{
+            color: rgb(62, 122, 175);
+        }
+
+        ul{
+            color: rgb(43, 94, 138);
+        }
+        p{
+            color: rgb(52, 110, 161);
+        }
+        dl{
+            color: rgb(55, 109, 156);
+        }
+    </style>
+</head>
+<body>
+    <h1>Listas</h1>
+    <h2>Listas ordenadas</h2>
+    <h3>As listas ordenadas são aquelas que possuem uma ordem lógica como uma receita, para que tenhamos que fazer as ações uma após a outra como idicado na lista, veja abaixo o exemplo de uma lista ordenada:</h3>
+
+    <p>
+        <ol type="1">
+            <li>Ir ao mercado</li>
+            <li>Pegar a cestinha</li>
+            <li>ir até as seções desejadas</li>
+            <li>Pegar os produtos de sua preferência</li>
+            <li>Ir ao caixa</li>
+            <li>Passar os produtos</li>
+            <li>Pagar o valor total dos produtos</li>
+            <li>Aguardar a moça colocar os produtos em uma sacola</li>
+            <li>Pegar os produtos e sair do mercado</li>
+        </ol>
+    </p>
+
+    <h2>Listas não ordenadas</h2>
+
+    <h3>As listas não ordenadas, como já diz não precisa de uma ordem de execução. veja abaixo</h3>
+
+    <p>
+        <ul>
+        <li>Pão de queijo</li>
+        <li>Sabão em pó</li>
+        <li>Sacola plastica</li>
+        <li>Arroz</li>
+        </ul>
+    </p>
+    
+    <h2>Tipos nas tags ul e ol</h2>
+    <h3>Nas listas ordenadas(ol) por padrão já vem com ordem numerica, mas podemos alterar o type para (Alfabetico maiusculo e minusculo, ou algarismo romano, maiusculo ou minusculo) também podemos indicar em qual posição irá se iniciar a lista (podendo começar do c, 3, XI) com o parametro 'start="posição"'Veja abaixo alguns exemplos:</h3>
+
+    <p>
+        lista com o tipo Alfabetico maiusculo
+        <ol type="A">
+            <li>Arroz</li>
+            <li>Abacaxi</li>
+            <li>Pipoca</li>
+            <li>Couve</li>
+        </ol>
+    </p>
+
+    <p>
+        lista com o tipo alfabetico minusculo começado a partir do c
+
+        <ol type="a" start="3">
+            <li>Arroz</li>
+            <li>Abacaxi</li>
+            <li>pimenta</li>
+        </ol>
+    </p>
+
+    <h2> Mudando o tipo da lista não ordenada</h2>
+
+    <h3>Como podemos ver, as listas não ordenadas por padrão começam com uma bolinha preta, saiba que também podemos mudar isto usando o paramentro style (circle, square e disc).</h3>
+
+    <p>
+        Veja abaixo o exemplo:
+        <code>&lt;ul type='square'&gt;</code>
+        
+        <ul type= 'square'>
+            <li>Ovo</li>
+            <li>Arroz</li>
+            <li>Peixe</li>
+        </ul>
+    
+    </p>
+
+    <p>
+        podemos notar que ficou o quadrado preto antes do item, isso porque o type square deixou desta forma
+    </p>
+    <h2>Aninhando listas e sub listas</h2>
+    <h3>Podemos colocar listas dentro de outras listas, criando assim uma sub lista. não só lista do mesmo tipo, podemos colocar uma lista ordenada com uma sub lista não ordenada.</h3>
+
+    <p>
+        listarei abaixo meus sites favoritos e conteudos do site:
+        <ol>
+            <li>Xvideos</li>
+            <ul type='square'>
+                <li>Mulheres com Peitão</li>
+                <li>Moreinhas</li>
+                <li>Novinhas Magrinhas</li>
+            </ul>
+            <li>Instagram</li>
+            <ul type='square'>
+                <li>Conversar com meu xuxu</li>
+                <li>Ver stories</li>
+                <li>Ver videos</li>
+            </ul>
+            <li>Goyabu</li>
+            <ul type='square'>
+                <li>One piece</li>
+                <li>NAruto</li>
+                <li>Nanatsu no taizai</li>
+            </ul>
+            <li>W3C</li>
+            <ul type='square'>
+                <li>Conteudo de javascript</li>
+                <li>Conteudo de html</li>
+                <li>Conteudo de Css</li>
+            </ul>
+        </ol>
+    </p>
+    <h2>Lista de definições</h2>
+
+    <h3>Há também um tipo de lista para nos referirmos a termo e definição veja abaixo:</h3>
+
+    <p>
+        Esse metodo consiste em um termo e uma definição
+        <dl>
+            <td>HTML</td>
+            <dd>Curso onde veremos como estruturar um site</dd>
+            <td>CSS</td>
+            <dd>Curso onde aprenderemos a "embelezar" o site</dd>
+            <td>Javascript</td>
+            <dd>Curso onde aplicaremos as funcionalidades ao nosso site </dd>
+        </dl>
+        
+    </p>
+    <p>
+        Como você pode ver acima, para cada termo nós indicamos uma definição, assim que funciona a lista de definição com as tagas dl(abertura) td(abertura do termo) dd(abertura do significado ) *as 3 possuem fechamento*
+    </p>
+    <p>Link abaixo para o bla bla bla</p>
+
+    <a href="https://translate.google.com/intl/pt-BR/about/" target="_blank" rel="external">Google tradutor</a>
+</body>
+</html>

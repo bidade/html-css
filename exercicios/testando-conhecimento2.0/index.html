@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Evolução</title>
+    <style type="text/css">
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: darkslategrey;
+            text-align: center;
+        }
+        h2{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: darkslategrey;
+            text-align: center;
+        }
+        h3{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: darkslategrey;
+            text-align: center;
+        }
+        p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: darkslategrey;
+            text-align: center;
+        }
+        ol{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: darkslategrey;
+            text-align: center;
+        }
+        li{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: darkslategrey;
+            text-align: center;
+        }
+        dt{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: darkslategrey;
+            text-align: center;
+        }
+        dd{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: darkslategrey;
+            text-align: center;
+        }
+        body{
+            background-color: ivory;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Colocando em prática algumas coisas para fixar melhor</h1>
+    <h2>Formatações de texto </h2>
+    <h3> <strong>Negrito</strong> <ins>Inserido</ins> <del>Deletados</del> <em>Italico</em> 4<sup>2</sup> H<sub>2</sub>O</h3>
+
+    <h2>Listas Ordenadas não Ordenadas e Listas de definição </h2>
+    <h3>Listas ordenadas</h3>
+    <p>
+        <ol>
+            <li>Ir ao mercado</li>
+            <li>Ir no médico</li>
+            <li>Fazer um bolo pra levar pra Rayssa</li>
+        </ol>
+    </p>
+    <h3>Listas ordenadas mudando o type para Ordem alfabetica maiusculas</h3>
+    <p>
+        <ol type="A">
+            <li>Eu</li>
+            <li>Tu</li>
+            <li>Nós</li>
+            <li>Bota nela</li>
+        </ol>
+        <p>        digamos que eu queira continuar a lista aqui no caso começando da letra E neste caso usarei o parametro start</p>
+        <p>
+            <ol type="A" start="5">
+            <li>Comprar pão</li>
+            <li>Ir no mercado as 14:00</li>
+            <li>Fazer o exame chounin</li>
+            </ol>
+        </p>
+
+    <h2>LIstas de definições</h2>
+    <h3> usada geralmente para indicar termo e uma definição</h3>
+    <p>
+        <dl>
+            <dt>Belo:</dt>
+            <dd>Algo muito bonito que chama a atenção de muitas pessoas</dd>
+            <dt>Amor:</dt>
+            <dd>Um sentimento, que você tem por algo, alguém, que não queira perder, não queira o ver mal, ou danificado</dd>
+            <dt>PT:</dt>
+            <dd>Nas girias jovem atual "Perda Total" Quando se fica muito bebado a ponto de apagar</dd>
+        </dl>
+    </p>
+
+    <h2>Usando Simbolos e emojis</h2>
+    <h3>É possivel adicionar emojis e simbolos espesciais nos textos veja abaixo</h3>
+
+    <p>
+        <strong>caracters espesciais</strong>  <br>
+        setas: &uparrow;, &downarrow;, &leftarrow;, &rightarrow;<br>
+        outros: &euro;, &DoubleLeftRightArrow; &pound;<br>
+        <strong>Emojis</strong><br>
+        &#x1F4DA;
+        &#x1F601;
+        &#x1F920;
+         
+    </p>
+
+    <h2>Adicionando imagens</h2>
+    <h3>Podemos adicionar imagens por meio de link, diretamente dos navegadores ou por nossas pastas, neste exemplo irei usar uma externa.</h3>
+    <img src="https://baptistaluz.com.br/wp-content/uploads/2021/03/nyan-cat.png" alt="Gatinho voando no espaço arco-íris">
+    <h2>Links internos e externos</h2>
+    <h3>Os links são conexções entre paginas sites, funcionam como ponte, eles podem ser usado de forma interna ou externa na sua aplicação web, como o link de outras paginas sua, ou link externos de pagina de terceiros</h3>
+    <p>
+        O link abaixo, é um link externo e te levará para o site que peguei essa imagem acima como referência.<br>
+       <button type="button"><a href="https://baptistaluz.com.br/institucional/nft-e-suas-implicacoes-legais/" target="_blank" rel="external">Referencia da foto acima aqui </a></button><br>
+        O link abaixo é um link interno que te levará para minha segunda página.<br>
+        <button type="button"><a href="pagina02.html" target="_self" rel="next">Minha segunda página</a></button>
+    </p>
+    <h2>Links para donwload</h2>
+    <h3>O método do donwload tratasse de indexsarmos um conteudo com o tipo donwload no link para que quando clicado, se inicie o donwload de um determinado conteudo.<br>
+    O conteudo pode ser do tipo texto, audio, imagem, arquivos xip dentro outros.</h3>
+    <p>
+        Aqui abaixo vai um link de donwload de uma foto, ela estará em formato .ZIP<br>
+        <button type="button"><a href="girafa.zip" download="girafa.zip" type="application/zip">LInk para baixar foto da girafa (Zipado)</a></button>
+    </p>
+    <h2>Imagem dinamica</h2>
+    <h3>A imagem dinamica se reajusta de acordo com a resolução da tela do usuario</h3>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-pequena.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-media.png" type="image/png">
+        <img src="imagens/foto-grande.png" alt="">
+    </picture>
+    <h2>Tocando audio</h2>
+    <h3>è possivel adicionar audio ao site de uma maneira muito simples</h3>
+    <p>Sonzinho bom 1</p>
+    <audio src="midia/Concierge.mp3" autoplay controls></audio>
+    <p>Sonzinho bom 2</p>
+    <audio src="midia/Cameras.mp3"controls autoplay></audio>
+</body>
+</html>

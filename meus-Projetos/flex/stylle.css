@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: gray;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1,p{
+    color: white;
+}
+
+nav, ul{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+nav ul li{
+    margin: 0 20px;
+    padding: 20px;
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: green;
+    opacity: 50%;
+}
+nav ul li a{
+}
+
+nav{
+    min-width: 320px;
+    max-width: 1200px;
+    margin: auto;
+}

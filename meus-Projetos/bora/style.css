@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Open+Sans:ital,wght@0,400;1,700&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h ul{
+    padding: 0;
+    list-style-type: none ;
+    background-color: rgb(182, 125, 182);
+    max-width: 800px;
+}
+
+#menu-h ul li{
+    display: inline;
+}
+
+#menu-h ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover{
+    background-color:rgb(209, 173, 233);
+}
+
+#menu-h ul li:last-child a{
+    float: right;
+    background-color:rgb(173, 128, 201) ;
+}
+
+body{
+    background-color: rgb(219, 192, 236) ;
+}
+
+
+.imagem{
+display: table-cell;
+margin-top: 50px;
+float: left;
+margin-left: 120px;
+border-radius: 50px;
+}
+.texto{
+    display: table;
+    float: left;
+    width: 800px;
+    margin-top: 44px;
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(91, 87, 100);
+
+}
+.coteudo{
+
+}
+
+.titulo{
+    font-family: 'Corinthia', cursive;
+    color: rgb(116, 111, 128);
+    text-align: center;
+    font-size: 44pt;
+}
+

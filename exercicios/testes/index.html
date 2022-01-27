@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        body{
+            background-color: burlywood;
+        }
+        h1{
+            color: cornsilk;
+        }
+        h2{
+            color: cornsilk;
+        }
+
+        h3{
+            color: cornsilk;
+        }
+
+        p{
+            color: cornsilk;
+        }
+    </style>
+</head>
+<body>
+    <h1>Baixando arquivos e tocando midia</h1>
+    <h2>Abaixo deixarei um link para download de um arquivo</h2>
+    <p>
+        Click <a href="cameras.zip.zip" download="cameras.zip.zip" type="application/zip">Aqui para baixar uma musica legal</a>
+    </p>
+    <h2>é possivel imagem dinamica, que se ajusta de acordo com a tela do usuario, deixando assim a experiencia do mesmo mais interessante</h2>
+    <h3>Confira abaixo diminua e aumente o tamanho da tela, colocarei a inicial de cada tamanho para facilitar G(grande)m(media)p(pequena):</h3>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-pequena.png" type="image/png">
+        <source media="(max-width:1050px)"  srcset="imagens/foto-media.png" type="image/png">
+        <img src="imagens/foto-grande.png" alt="Foto grande">
+    </picture>
+
+    <h2>Reproduzindo audio</h2>
+    <h3>É possivel reproduzir audio no navegador e é muito simples apenas usando a tag audio, veja abaixo</h3>
+
+    <audio src="cameras.mp3" autoplay controls></audio>
+
+    <h2>Link de musicas eletronicas foda</h2>
+    <a href="https://www.youtube.com/watch?v=hOckSYNyQas" target="_blank" rel="external">Musicas eletronicas Calvin Harris</a>
+
+    <h2>Videos</h2>
+
+    <h3>podemos colocar videos em nossos sites. abaixo vão dois videos utilizando a tag video com os parametros poster e controls</h3>
+
+    <p>
+        Hmmmmmm limõeees
+        <br>
+        <br>
+
+    <video src="videos/video-morangos-webm.webm" width="400px" height="600px" loop poster="imagens/poster-limoes.jpg" controls></video>
+    </p>
+
+
+    <p>E esse lindo treem
+        <br>
+        <br>
+
+        <video src="videos/video-trem-mp4.mp4" height="600px" poster="imagens/poster-trem.jpg" width="400px" loop controls ></video>
+    </p>
+
+    <h2>Inserindo video do you tube</h2>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/y2LZr9ZVCCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2>video legal bla bla</h2>
+    <iframe width="600" height="415" src="https://www.youtube.com/embed/AZS5cgybKcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</body>
+</html>
