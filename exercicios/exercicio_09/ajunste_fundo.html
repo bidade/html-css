@@ -8,19 +8,24 @@
     <style>
         body{
             height: 100vh;
+            /*
+            MÉTODO SEM A SHORTHAND
             background-color: rgb(34, 131, 34);
-            background-attachment: fixed;
             background-image: url('https://agnaldotrajano.com.br/image/cache/catalog/noticias/trapalhoes1140x700-1140x700.jpg');
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
+            background-attachment: fixed;*/
+
+            /*ABAIXO VEMOS O MÉTODO COM SHORTHAND NA ORDEM COLOR>IMAGEM>POSITION>REPEAT>ATTACHMENT*/
+            background: rgb(34, 131, 34) url('https://agnaldotrajano.com.br/image/cache/catalog/noticias/trapalhoes1140x700-1140x700.jpg') center center no-repeat scroll;
+            background-size: cover;
 
             
         }
         main{
             background-color: rgba(255, 255, 255, 0.767);
-            width: 600px;
-            height: 500px;
+            max-width: 600px;
             padding: 20px;
             border: 2px solid black;
             border-radius: 15px 0px;
@@ -103,6 +108,5 @@
             Pátria amada
             Brasil!</p>
     </main>
-    
 </body>
 </html>
