@@ -5,20 +5,22 @@
     align-items: flex-start;
   }
   h1{
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.466);
   }
   h2{
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.473);
     color:rgb(53, 54, 44, 0.911);
 }
   
 body{
+    height: 100vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(255, 255, 255);
     background-color: gainsboro;
     text-align: justify;
     position:absolute;
 background-image:url(https://images.cointelegraph.com/images/717_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjEtMTAvYmQ4M2IyM2MtNzFjNi00NThjLWFlMzItNjU5MjQ2NWZjYWI0LmpwZw==.jpg);
+background-size: cover;
 }
 
 a{
